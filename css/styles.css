@@ -1,0 +1,236 @@
+*{font-family: "Roboto",
+    sans-serif;
+list-style-type: none;}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+
+
+.header-navigation-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-navigation-logo-italic {
+    color: #2e2f42;
+}
+
+.link {font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+    .link:hover{color: #404bbf;}
+    .link:focus{color: #404bbf;
+    }
+
+.header-navigation-link-first {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-navigation-link-first:hover {
+    color: #404bbf;
+}
+
+.header-navigation-link-first:focus {
+    color: #404bbf;
+}
+
+.header-navigation-link-second {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-navigation-link-second:hover {
+    color: #404bbf;
+}
+
+.header-navigation-link-second:focus {
+    color: #404bbf;}
+
+.header-navigation-link-third {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+        }
+    
+.header-navigation-link-third:hover {
+            color: #404bbf;
+        }
+    
+.header-navigation-link-third:focus {
+            color: #404bbf;}
+
+.contact-info {
+    font-style: normal;
+}
+
+.contact-item {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-link:hover {
+    color: #404BBF;
+}
+
+.contact-link:focus {
+    color: #404BBF;
+}
+
+.contact-item:hover {
+    color: #404bbf;
+}
+
+.contact-item:focus {
+    color: #404bbf;
+}
+
+.hero-banner {
+    background-color: #2e2f42;
+}
+
+.hero-banner-main-text{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-banner-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+.hero-banner-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-banner-button:focus {
+    background-color: #404BBF;
+}
+
+
+.benefits-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2 ;
+    letter-spacing: 0.02em;
+color: #2e2f42;}
+
+
+
+
+.benefits-heading-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-main-text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-images {
+    background-color: #FFFFFF;
+}
+
+.team-second-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-main-text {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-second-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    columns: #434455;
+}
+
+.bottom {
+    background-color: #2e2f42
+}
+
+.bottom-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.bottom-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+.bottom-logo-italic{color: #f4f4fd;}
