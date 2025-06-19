@@ -94,24 +94,19 @@ body {
     color: #434455;
 }
 
-.contact-link:hover {
-    color: #404BBF;
-}
-
+.contact-link:hover,
 .contact-link:focus {
     color: #404BBF;
 }
 
-.contact-item:hover {
-    color: #404bbf;
-}
-
+.contact-item:hover,
 .contact-item:focus {
     color: #404bbf;
 }
 
 .hero-banner {
     background-color: #2e2f42;
+    border-radius: 0;
 }
 
 .hero-banner-main-text{
@@ -120,6 +115,12 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-top: 188px;
+    max-width: 496px;
+    padding-left: 472px;
+    padding-right: 472px;
+    margin-bottom: 292px;
+    
 }
 
 .hero-banner-button {
@@ -129,33 +130,29 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;  
 }
 
-.hero-banner-button:hover {
-    background-color: #404BBF;
-}
-
+.hero-banner-button:hover,
 .hero-banner-button:focus {
-    background-color: #404BBF;
-}
-
+    background-color: #404BBF;}
 
 .benefits-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2 ;
     letter-spacing: 0.02em;
-color: #2e2f42;}
-
-
-
+    color: #2e2f42;
+    margin: 0;}
 
 .benefits-heading-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
 .team {
@@ -170,10 +167,14 @@ color: #2e2f42;}
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
 }
+
+img {display: block;}
 
 .team-images {
     background-color: #FFFFFF;
+    
 }
 
 .team-second-text {
@@ -182,6 +183,7 @@ color: #2e2f42;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
 }
 
 .team-text {
@@ -189,6 +191,7 @@ color: #2e2f42;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
 .portfolio-main-text {
@@ -198,6 +201,7 @@ color: #2e2f42;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: 0;
 }
 
 .portfolio-second-text {
@@ -206,12 +210,14 @@ color: #2e2f42;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
 }
 
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     columns: #434455;
+    margin: 0;
 }
 
 .bottom {
@@ -232,5 +238,23 @@ color: #2e2f42;}
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 .bottom-logo-italic{color: #f4f4fd;}
+
+.container { 
+    max-width: 1158px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
+    padding-right:  0;
+    margin: 0 auto; 
+    }
+    
+h1, h2, h3, h4, h5, h6, p {margin-top: 0;
+margin-bottom: 0;}
+
+ul, 
+li {
+margin: 0;
+padding-left: 0;}
