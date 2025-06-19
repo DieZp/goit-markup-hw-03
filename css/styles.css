@@ -25,9 +25,8 @@ body {
 }
 .header {border-bottom: 1px solid #e7e9fc;}
 
-.container-header {display: flex;}
-
-.header-navigation {
+ .container-header {display: flex;}
+ .header-navigation {
     display: flex;
    align-items: center;}
 
@@ -96,6 +95,8 @@ body {
 .contact-item:focus {
     color: #404bbf;
 }
+.address {display: flex;
+padding-right: 156px;}
 
 .hero-banner {
     background-color: #2e2f42;
