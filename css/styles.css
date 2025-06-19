@@ -7,7 +7,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.header{border-bottom: 1px solid #e7e9fc;}
 
+.container-header{display: flex;}
 
 
 .header-navigation-logo {
@@ -137,7 +139,8 @@ body {
 
 .hero-banner-button:hover,
 .hero-banner-button:focus {
-    background-color: #404BBF;}
+    background-color: #404BBF;
+}
 
 .benefits-heading {
     font-weight: 500;
@@ -232,6 +235,8 @@ img {display: block;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .bottom-text {
@@ -239,15 +244,13 @@ img {display: block;}
     color: #F4F4FD;
     letter-spacing: 0.02em;
     margin: 0;
+    max-width: 264px;
 }
 .bottom-logo-italic{color: #f4f4fd;}
 
 .container { 
     max-width: 1158px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-left: 0;
-    padding-right:  0;
+    padding: 0 15px 0 15px;
     margin: 0 auto; 
     }
     
