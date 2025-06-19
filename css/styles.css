@@ -197,6 +197,12 @@ img {display: block;}
     margin: 0;
 }
 
+.container-footer {padding: 100px 0;}
+
+.container-footer .bottom-logo {display: inline-block;
+    margin-bottom: 16px;}
+
+.container-footer .bottom-text {max-width: 264px;}
 .bottom {
     background-color: #2e2f42
 }
@@ -208,17 +214,14 @@ img {display: block;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px;
-}
+    color: #4d5ae5;}
 
 .bottom-text {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     margin: 0;
-    max-width: 264px;
+    
 }
 .bottom-logo-italic{color: #f4f4fd;}
 
