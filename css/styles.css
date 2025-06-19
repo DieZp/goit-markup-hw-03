@@ -2,6 +2,22 @@
     sans-serif;
 list-style-type: none;}
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding-left: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -225,16 +241,3 @@ img {display: block;}
 }
 .bottom-logo-italic{color: #f4f4fd;}
 
-.container { 
-    max-width: 1158px;
-    padding: 0 15px 0 15px;
-    margin: 0 auto; 
-    }
-    
-h1, h2, h3, h4, h5, h6, p {margin-top: 0;
-margin-bottom: 0;}
-
-ul, 
-li {
-margin: 0;
-padding-left: 0;}
