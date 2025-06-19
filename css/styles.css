@@ -7,9 +7,12 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-.header{border-bottom: 1px solid #e7e9fc;}
+.header {border-bottom: 1px solid #e7e9fc;}
 
-.container-header{display: flex;}
+.container-header {display: flex;}
+
+.header-navigation {display: flex;
+align-items: center;}
 
 
 .header-navigation-logo {
@@ -20,6 +23,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-navigation-logo-italic {
@@ -33,8 +37,11 @@ body {
     .link:hover{color: #404bbf;}
     .link:focus{color: #404bbf;
     }
+    .header-navigation-link-all {display: flex;
+    gap: 40px;
+padding: 24px 0;}
 
-.header-navigation-link-first {
+.header-navigation-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -42,43 +49,10 @@ body {
     color: #2e2f42;
 }
 
-.header-navigation-link-first:hover {
+.header-navigation-link:hover,
+.header-navigation-link:focus {
     color: #404bbf;
 }
-
-.header-navigation-link-first:focus {
-    color: #404bbf;
-}
-
-.header-navigation-link-second {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.header-navigation-link-second:hover {
-    color: #404bbf;
-}
-
-.header-navigation-link-second:focus {
-    color: #404bbf;}
-
-.header-navigation-link-third {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-        }
-    
-.header-navigation-link-third:hover {
-            color: #404bbf;
-        }
-    
-.header-navigation-link-third:focus {
-            color: #404bbf;}
 
 .contact-info {
     font-style: normal;
