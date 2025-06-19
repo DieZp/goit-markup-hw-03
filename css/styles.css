@@ -25,7 +25,8 @@ body {
 }
 .header {border-bottom: 1px solid #e7e9fc;}
 
- .container-header {display: flex;}
+ .header-container {display: flex;}
+
  .header-navigation {
     display: flex;
    align-items: center;}
@@ -63,6 +64,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-navigation-link:hover,
@@ -94,7 +96,7 @@ body {
 .contact-item:hover,
 .contact-item:focus {
     color: #404bbf;}
-    
+
 .hero-banner {
     background-color: #2e2f42;
     border-radius: 0;
