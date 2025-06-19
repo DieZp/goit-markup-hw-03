@@ -93,11 +93,8 @@ body {
 
 .contact-item:hover,
 .contact-item:focus {
-    color: #404bbf;
-}
-.address {display: flex;
-padding-right: 156px;}
-
+    color: #404bbf;}
+    
 .hero-banner {
     background-color: #2e2f42;
     border-radius: 0;
