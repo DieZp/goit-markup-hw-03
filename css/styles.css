@@ -146,6 +146,7 @@ gap: 40px;}
     padding: 188px 0;
 }
 .hero-banner-content {padding: 188px 472px 292px 472px;}
+.hero-banner-content h1 {max-width: 496px;}
 
 .hero-banner-main-text {
     font-size: 56px;
@@ -155,9 +156,15 @@ gap: 40px;}
     letter-spacing: 0.02em;
     color: #FFFFFF;
     padding-top: 188px; 
-    max-width: 496px;
     margin-bottom: 48px;}
 
+.hero-banner-content button {display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    cursor: pointer;}
+    
 .hero-banner-button {
     background-color: #4D5AE5;
     font-weight: 500;
