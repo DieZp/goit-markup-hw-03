@@ -284,7 +284,8 @@ text-align: center;}
 }
 
 .bottom {
-    background-color: #2e2f42
+    background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .bottom-logo {
@@ -294,6 +295,8 @@ text-align: center;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .bottom-text {
@@ -301,6 +304,7 @@ text-align: center;}
     color: #F4F4FD;
     letter-spacing: 0.02em;
     margin: 0;
+    /* padding: 100px 0; */
 
 }
 
