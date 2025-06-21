@@ -42,6 +42,11 @@ body {
     align-items: center;
 }
 
+.header-navigation-direction nav { display: flex;
+align-items: center;
+padding: 24px 0;
+}
+
 .header-navigation-direction ul {
     display: flex;
     gap: 40px;
@@ -108,13 +113,13 @@ body {
     font-style: normal;
 }
 
-/* .contact-list-block {display: flex;
-    align-items: end;} */
+.contact-list-block ul {display: flex;
+    gap: 40px;}
 /* .contact-info ul {
     display: flex;
     align-items: end;
     gap: 40px; */
-    
+
 .contact-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
