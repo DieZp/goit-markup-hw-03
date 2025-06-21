@@ -37,15 +37,18 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-navigation-direction {
+.container-navigation-all{display: flex;
+align-items: center;}
+
+.header-navigation-direction a {
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
+.header-navigation-menu {display: flex;
+gap: 40px;}
 
-.header-navigation-direction nav { display: flex;
-align-items: center;
-padding: 24px 0;
-}
+.header-navigation-menu ul {padding: 24px 0;}
 
 .header-navigation-direction ul {
     display: flex;
