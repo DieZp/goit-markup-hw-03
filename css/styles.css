@@ -45,8 +45,19 @@ align-items: center;}
 align-items: center;}
 
 .header-navigation-direction ul {display: flex;
-gap: 40px;
-padding: 24px 0;}
+}
+
+.header-navigation-menu {gap: 40px;
+    padding: 24px 0;
+margin-right: 332px;}
+ 
+.header-navigation-menu li {font-weight: 500;}  
+
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .header-navigation-logo {
     font-weight: 700;
@@ -122,6 +133,8 @@ padding: 24px 0;}
 .contact-item:focus {
     color: #404bbf;
 }
+
+
 
 .hero-banner {
     background-color: #2e2f42;
