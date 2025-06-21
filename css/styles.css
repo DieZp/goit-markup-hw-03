@@ -35,11 +35,11 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    margin: 24px 0 24px 0;
 }
 
 
-.header-navigation {display: flex;
-align-items: center;}
+
 
 .header-navigation-direction {display: flex;
 align-items: center;}
@@ -47,18 +47,21 @@ align-items: center;}
 .header-navigation-direction ul {display: flex;
 }
 
-.header-navigation-menu {gap: 40px;
-    padding: 24px 0;
-margin-right: 332px;}
+.header-navigation-menu {
+    display: flex;
+    gap: 40px;}
  
-.header-navigation-menu li {font-weight: 500;}  
+.header-navigation-menu li {font-weight: 500;
+    padding: 24px 0 }  
 
 .header-contact {
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-right: 76px
 }
-
+.header-contact ul {display: flex;
+gap: 40px;}
 .header-navigation-logo {
     font-weight: 700;
     font-size: 18px;
