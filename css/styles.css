@@ -45,26 +45,23 @@ body {
 .header-navigation-direction ul {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
-}
-
-.header-navigation {
-    display: flex;
-}
+    padding: 24px 0;}
 
 .header-navigation-logo {
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+    margin-right: 76px
 }
 
 .header-navigation-menu {
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-navigation-menu li {
