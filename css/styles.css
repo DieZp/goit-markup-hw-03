@@ -125,6 +125,12 @@ gap: 40px;}
     padding: 188px 0;
 }
 
+..hero-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-banner-main-text {
     font-size: 56px;
     font-weight: 700;
@@ -184,10 +190,12 @@ gap: 40px;}
     color: #434455;
 }
 
-.benefits-heading-list {display: flex;
-gap: 24px;}
-.benefits-heading-list li {
-    flex-basis: calc((100% - 3 * 24px) / 4);}
+/* .benefits-heading-list {display: flex;
+gap: 24px;} */
+
+.benefits-heading-item {
+flex-basis: calc((100% - 3* 24px) / 4);}
+
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
