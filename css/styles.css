@@ -40,8 +40,8 @@ body {
 
 .container header-navigation-direction {display: flex;}
 
-.header-navigation-direction-menu {display: flex;
-    align-items: center;}
+/* .header-navigation-direction-menu {display: flex;
+    align-items: center;} */
 
 .header-navigation-direction ul {display: flex;
 }
