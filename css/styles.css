@@ -93,6 +93,7 @@ body {
 
 .contact-info {
     font-style: normal;
+    margin: 0 0 0 auto;
 }
 .contact-item {
     line-height: 1.5;
