@@ -177,12 +177,14 @@ align-items: center;}
     clip: rect(0, 0, 0, 0);
     overflow: hidden; }
 
+.benefits {padding: 120px 0}
 .benefits-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .benefits-heading-text {
@@ -192,8 +194,10 @@ align-items: center;}
     color: #434455;
 }
 
-.benefits-heading-list {display: flex;}
-
+.benefits-heading-list {display: flex;
+gap: 24px;}
+.benefits-heading-list li {
+    flex-basis: calc((100% - 3 * 24px) / 4);}
 .team {
     background-color: #F4F4FD;
 }
