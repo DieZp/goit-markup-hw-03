@@ -38,30 +38,20 @@ body {
     margin: 24px 0 24px 0;
 }
 
-
-
-
 .header-navigation-direction {display: flex;
 align-items: center;}
 
 .header-navigation-direction ul {display: flex;
 }
-
-.header-navigation-menu {
-    display: flex;
-    gap: 40px;}
  
-.header-navigation-menu li {font-weight: 500;
-    padding: 24px 0 }  
-
-.header-contact {
-    display: flex;
-    align-items: center;
+.header-navigation-menu {
     gap: 40px;
-    margin-right: 76px
+    margin-right: 332px;
+    margin-left: 76px;
+    max-width: 261px;
 }
-.header-contact ul {display: flex;
-gap: 40px;}
+.header-navigation-menu li {font-weight: 500;} 
+
 .header-navigation-logo {
     font-weight: 700;
     font-size: 18px;
@@ -69,8 +59,9 @@ gap: 40px;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    flex-grow: 1;
-    margin-right: 76px;
+     flex-grow: 1;
+    max-width: 115px;
+    /* margin-right: 76px;  */
 }
 
 .header-navigation-logo-italic {
@@ -84,10 +75,7 @@ gap: 40px;}
     color: #2e2f42;
 }
 
-.link:hover {
-    color: #404bbf;
-}
-
+.link:hover,
 .link:focus {
     color: #404bbf;
 }
@@ -98,9 +86,6 @@ gap: 40px;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
-    display: flex;
-    gap: 40px;
 }
 
 .header-navigation-link:hover,
@@ -111,10 +96,6 @@ gap: 40px;}
 .contact-info {
     font-style: normal;
 }
-
-.contact-list {display: flex;
-    gap: 40px;}
-
 .contact-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -155,15 +136,14 @@ gap: 40px;}
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding-top: 188px; 
     margin-bottom: 48px;}
 
-.hero-banner-content button {display: block;
+/* .hero-banner-content button {display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     background-color: #4D5AE5;
-    cursor: pointer;}
+    cursor: pointer;} */
     
 .hero-banner-button {
     background-color: #4D5AE5;
@@ -185,23 +165,34 @@ gap: 40px;}
 .hero-banner-button:focus {
     background-color: #404BBF;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden; }
+
 .benefits-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
 }
-/* .benefits-heading-list {padding: 120px} */
 
 .benefits-heading-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
 }
+
+.benefits-heading-list {display: flex;}
 
 .team {
     background-color: #F4F4FD;
@@ -241,6 +232,8 @@ text-align: center;}
     margin-bottom: 8px;
    
 }
+
+
 
 .team-text {
     font-size: 16px;
