@@ -35,7 +35,6 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    margin: 24px 0 24px 0;
 }
 
 .header-navigation-direction {
@@ -90,6 +89,8 @@ body {
 .header-navigation-link:focus {
     color: #404bbf;
 }
+.contact-list {display: flex;
+gap: 40px;}
 
 .contact-info {
     font-style: normal;
