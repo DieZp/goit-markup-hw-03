@@ -42,9 +42,6 @@ body {
     display: flex;
     align-items: center;}
 
-.header-navigation-direction ul {display: flex;
-}
-
 .header-navigation {display: flex;
     align-items: center;}
  
@@ -93,9 +90,6 @@ body {
 .header-navigation-link:focus {
     color: #404bbf;
 }
-
-.contact-list {display: flex;
-gap: 40px;}
 
 .contact-info {
     font-style: normal;
