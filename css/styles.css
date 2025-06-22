@@ -38,7 +38,7 @@ body {
     margin: 24px 0 24px 0;
 }
 
-.container header-navigation-direction {display: flex;}
+.header-navigation-direction {display: flex;}
 
 /* .header-navigation-direction-menu {display: flex;
     align-items: center;} */
