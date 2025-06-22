@@ -134,15 +134,9 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 48px;}
+    margin-bottom: 48px;
+    max-width: 496px;}
 
-/* .hero-banner-content button {display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color: #4D5AE5;
-    cursor: pointer;} */
-    
 .hero-banner-button {
     background-color: #4D5AE5;
     font-weight: 500;
