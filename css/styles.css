@@ -38,8 +38,9 @@ body {
     margin: 24px 0 24px 0;
 }
 
-.header-navigation-direction {display: flex;
-align-items: center;}
+.header-navigation-direction {
+    display: flex;
+    align-items: center;}
 
 .header-navigation-direction ul {display: flex;
 }
