@@ -38,7 +38,7 @@ body {
     margin: 24px 0 24px 0;
 }
 
-.header-navigation-direction {display: flex;}
+.container-header-navigation-direction {display: flex;}
 
 .header-navigation-direction-menu {display: flex;
     align-items: center;}
@@ -209,6 +209,7 @@ gap: 24px;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     width: 162px;
+    margin-bottom: 72px;
     
 }
 
